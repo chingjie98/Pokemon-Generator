@@ -4,38 +4,36 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
   <title>Pokemon Generator</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<section>
-    
-  <div class="submit">
-    <button id="submit-btn">Generate a random pokemon</button>
-  </div>
+  <header>
+    <p>Random Pokemon Generator</p>
+  </header>
 
-  <div class="information">
-    
-    <div id="display-image">  <!--pokemon image-->
-      <img>
+  <section>
+      
+    <div class="submit">
+      <button id="submit-btn">Generate a random pokemon</button>
+    </div>
+
+    <div class="information">
+      <div id="display-image">  <!--pokemon image-->
+      </div>
+
+      <div>              
+        <h3 id="display-name">Name: </h3> <!--pokemon name-->
+        <h3 id="display-type">Types: </h3>  <!--pokemon type, stats-->
+        <h3 id="display-abilities">Abilities</h3>  <!--pokemon skills-->
+      </div>  
     </div>
     
-    <div>              <!--pokemon name-->
-      <h3 id="display-name">Name: </h3>
-    </div> 
-    
-    <div>       <!--pokemon type, stats-->
-      <h3 id="display-type">Types: </h3>
-    </div>  
-    
-    <div>           <!--pokemon skills-->
-      <h3 id="display-abilities">Abilities</h3>
-    </div>  
-  
-  </div>
-  
-</section>
+  </section>
   
   <script src = 'script.js'></script>
 </body>
